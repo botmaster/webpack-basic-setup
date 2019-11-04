@@ -1,8 +1,18 @@
-// Normalize styles
-@import "~normalize.css";
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
 
 body {
     //
+}
+
+.bg-image {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/logo.png");
+    background-size: cover;
 }
 
 
